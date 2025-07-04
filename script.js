@@ -8,10 +8,10 @@ fetch('data.json')
         let category = item.category;
         let price = item.price;
         let img = item.image.desktop;
-        console.log(name);
-        console.log(category);
-        console.log(price);
-        console.log(img);
+        // console.log(name);
+        // console.log(category);
+        // console.log(price);
+        // console.log(img);
 
         const card = document.createElement("div");
         card.classList.add("card")

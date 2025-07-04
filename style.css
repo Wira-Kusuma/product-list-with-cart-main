@@ -10,6 +10,7 @@
     margin: 0;
     padding: 0;
     font-weight: 600;
+    box-sizing: border-box;
 }
 
 :root {
@@ -32,7 +33,7 @@ body {
 
 main {
     width: 70%;
-    padding: 1rem;
+    padding: 3rem;
 }
 
 .dessert-list {
