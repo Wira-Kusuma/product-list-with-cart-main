@@ -36,6 +36,11 @@ main {
     padding: 3rem;
 }
 
+main h1 {
+    font-weight: 900;
+    margin: 1rem;
+}
+
 .dessert-list {
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -48,7 +53,7 @@ main {
     display: flex;
     flex-direction: column;
     text-align: left;
-    justify-content: center;
+    justify-content: start;
     align-items: start;
     gap: 0.5rem;
 }
