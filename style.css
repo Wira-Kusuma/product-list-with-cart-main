@@ -30,6 +30,9 @@ body {
     width: 100%;
     overflow-x: hidden;
     display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
@@ -109,14 +112,15 @@ section h2 {
     font-weight: 700;
 }
 
-section img {
-    margin-left: 3rem;
-}
-
 .orderedItem {
     font-size: 0.8rem;
     font-weight: 500;
     color: var(--Red);
+    margin: auto;
+}
+
+.orderedItem img {
+    margin: 0 2rem;
 }
 
 .total {
@@ -135,6 +139,24 @@ section button {
     cursor: pointer;
 }
 
+.carbon-neutral {
+    width: 100%;
+    background-color: var(--Rose-100);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem ;
+    border-radius: 10px;
+}
+
+.carbon-neutral p {
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.show {display: flex;}
+.hide {display: none;}
+
 @media screen and (max-width:700px) {
     .dessert-list {
         width: 100%;
@@ -146,5 +168,9 @@ section button {
 
     .card {
         width: 90%;
+    }
+
+    main {
+        width: 100%;
     }
 }
