@@ -25,6 +25,14 @@ fetch('data.json')
 
         
         dessertList.appendChild(card);
+        
+        let order = card.querySelector("button");
+
+        order.addEventListener("click", function() {
+          document.querySelector(".total").classList.add("show");
+          document.querySelector(".carbon-neutral").classList.add("show");
+          document.querySelector("section button").classList.add("show");
+        });
     });
   });
 
